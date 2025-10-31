@@ -7,7 +7,7 @@ export function Header() {
       <div className="header-container">
         <div className="header-content">
           <div className="header-left">
-            <h1 className="header-title">Encrypted mUSDT Staking</h1>
+            <h1 className="header-title"> FHE Staking</h1>
             <p className="header-subtitle">Stake confidential balances and earn 1% rewards per day.</p>
           </div>
           <ConnectButton />
