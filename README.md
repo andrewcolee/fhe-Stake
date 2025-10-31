@@ -1,4 +1,4 @@
-# Encrypted mUSDT Staking
+# FHE Staking
 
 An end-to-end FHE-enabled staking experience that lets users claim a private mUSDT balance, stake it, accrue daily
 interest, and manage rewards without exposing amounts on-chain. The project is powered by Zama's FHEVM stack with a
