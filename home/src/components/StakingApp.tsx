@@ -22,7 +22,7 @@ type ActionState = {
 
 type AccountStateResult = readonly [string, string, string, bigint, boolean];
 
-const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
+// const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 
 const initialActions: ActionState = {
   claim: false,
@@ -67,7 +67,7 @@ export function StakingApp() {
   const [isDecrypting, setIsDecrypting] = useState(false);
   const [decryptError, setDecryptError] = useState<string | null>(null);
 
-  const contractConfigured = CONTRACT_ADDRESS !== ZERO_ADDRESS;
+  const contractConfigured = true;
 
   const {
     data: accountData,
