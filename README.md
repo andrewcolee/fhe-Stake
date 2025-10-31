@@ -1,7 +1,8 @@
-# FHEVM Hardhat Template
+# Encrypted mUSDT Staking
 
-A Hardhat-based template for developing Fully Homomorphic Encryption (FHE) enabled Solidity smart contracts using the
-FHEVM protocol by Zama.
+An end-to-end FHE-enabled staking experience that lets users claim a private mUSDT balance, stake it, accrue daily
+interest, and manage rewards without exposing amounts on-chain. The project is powered by Zama's FHEVM stack with a
+Hardhat backend and a Vite + React application for the frontend.
 
 ## Quick Start
 
@@ -68,14 +69,15 @@ For detailed instructions see:
 ## 📁 Project Structure
 
 ```
-fhevm-hardhat-template/
-├── contracts/           # Smart contract source files
-│   └── FHECounter.sol   # Example FHE counter contract
-├── deploy/              # Deployment scripts
-├── tasks/               # Hardhat custom tasks
-├── test/                # Test files
-├── hardhat.config.ts    # Hardhat configuration
-└── package.json         # Dependencies and scripts
+fhe-Stake/
+├── contracts/             # Smart contract source files
+│   └── EncryptedStaking.sol   # Encrypted staking logic for mUSDT
+├── deploy/                # Deployment scripts
+├── tasks/                 # Hardhat custom tasks for staking flows
+├── test/                  # Unit and network tests
+├── home/                  # Frontend application (React + Vite)
+├── hardhat.config.ts      # Hardhat configuration
+└── package.json           # Backend dependencies and scripts
 ```
 
 ## 📜 Available Scripts
